@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a68c370d-5047-453b-9d0c-d16b38a77052" name="Changes" comment="Base window">
+    <list default="true" id="a68c370d-5047-453b-9d0c-d16b38a77052" name="Changes" comment="got screen width and height">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Window.java" afterDir="false" />
     </list>
@@ -22,6 +22,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1c4fb17d-ca03-4402-9ccb-2ea67781b036" />
+        <option name="url" value="https://github.com/JakubTuta/sorting_algorithms.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -70,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677419247983</updated>
       <workItem from="1677419249256" duration="1658000" />
-      <workItem from="1677422071751" duration="1445000" />
+      <workItem from="1677422071751" duration="2822000" />
     </task>
     <task id="LOCAL-00001" summary="Base window">
       <created>1677422394648</created>
@@ -79,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677422394648</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="got screen width and height">
+      <created>1677423539898</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677423539898</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +119,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Base window" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="got screen width and height" />
+    <option name="LAST_COMMIT_MESSAGE" value="got screen width and height" />
   </component>
 </project>
