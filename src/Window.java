@@ -23,7 +23,8 @@ public class Window extends JPanel {
 //        Thread thread = new Thread(new QuickSortRunnable(arrOfNumbers, this));
 //        Thread thread = new Thread(new InsertionSortRunnable(arrOfNumbers, this));
 //        Thread thread = new Thread(new SelectionSortRunnable(arrOfNumbers, this));
-        Thread thread = new Thread(new BogoSortRunnable(arrOfNumbers, this));
+//        Thread thread = new Thread(new BogoSortRunnable(arrOfNumbers, this));
+        Thread thread = new Thread(new ShakerSortRunnable(arrOfNumbers, this));
         thread.start();
     }
 
