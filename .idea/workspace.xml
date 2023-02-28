@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a68c370d-5047-453b-9d0c-d16b38a77052" name="Changes" comment="Added shaker sort">
-      <change afterPath="$PROJECT_DIR$/src/CombSortRunnable.java" afterDir="false" />
+    <list default="true" id="a68c370d-5047-453b-9d0c-d16b38a77052" name="Changes" comment="Added comb sort">
+      <change afterPath="$PROJECT_DIR$/src/RadixSortRunnable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Window.java" afterDir="false" />
     </list>
@@ -88,7 +88,7 @@
       <workItem from="1677422071751" duration="2849000" />
       <workItem from="1677495549923" duration="3284000" />
       <workItem from="1677607082842" duration="719000" />
-      <workItem from="1677618511746" duration="2077000" />
+      <workItem from="1677618511746" duration="2271000" />
     </task>
     <task id="LOCAL-00001" summary="Base window">
       <created>1677422394648</created>
@@ -160,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677620324493</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added comb sort">
+      <created>1677620634158</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677620634158</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +196,7 @@
     <MESSAGE value="Added selection sort" />
     <MESSAGE value="Added bogo sort" />
     <MESSAGE value="Added shaker sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added shaker sort" />
+    <MESSAGE value="Added comb sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added comb sort" />
   </component>
 </project>
