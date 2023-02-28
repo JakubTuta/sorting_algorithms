@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a68c370d-5047-453b-9d0c-d16b38a77052" name="Changes" comment="Added insertion sort">
-      <change afterPath="$PROJECT_DIR$/src/SelectionSortRunnable.java" afterDir="false" />
+    <list default="true" id="a68c370d-5047-453b-9d0c-d16b38a77052" name="Changes" comment="Added selection sort">
+      <change afterPath="$PROJECT_DIR$/src/BogoSortRunnable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Window.java" afterDir="false" />
     </list>
@@ -88,7 +88,7 @@
       <workItem from="1677422071751" duration="2849000" />
       <workItem from="1677495549923" duration="3284000" />
       <workItem from="1677607082842" duration="719000" />
-      <workItem from="1677618511746" duration="1235000" />
+      <workItem from="1677618511746" duration="1489000" />
     </task>
     <task id="LOCAL-00001" summary="Base window">
       <created>1677422394648</created>
@@ -139,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677619469814</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added selection sort">
+      <created>1677619784467</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677619784467</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +172,7 @@
     <MESSAGE value="Bubble sort is working fine" />
     <MESSAGE value="Added quicksort" />
     <MESSAGE value="Added insertion sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added insertion sort" />
+    <MESSAGE value="Added selection sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added selection sort" />
   </component>
 </project>
