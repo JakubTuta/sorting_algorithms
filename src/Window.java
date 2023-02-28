@@ -19,7 +19,9 @@ public class Window extends JPanel {
 
     void start_program() {
         create_array();
-        Thread thread = new Thread(new QuickSortRunnable(arrOfNumbers, this));
+//        Thread thread = new Thread(new BubbleSortRunnable(arrOfNumbers, this));
+//        Thread thread = new Thread(new QuickSortRunnable(arrOfNumbers, this));
+        Thread thread = new Thread(new InsertionSortRunnable(arrOfNumbers, this));
         thread.start();
     }
 

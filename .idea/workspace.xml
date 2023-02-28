@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a68c370d-5047-453b-9d0c-d16b38a77052" name="Changes" comment="Bubble sort is working fine">
-      <change afterPath="$PROJECT_DIR$/src/QuickSortRunnable.java" afterDir="false" />
+    <list default="true" id="a68c370d-5047-453b-9d0c-d16b38a77052" name="Changes" comment="Added quicksort">
+      <change afterPath="$PROJECT_DIR$/src/InsertionSortRunnable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BubbleSortRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BubbleSortRunnable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +88,7 @@
       <workItem from="1677422071751" duration="2849000" />
       <workItem from="1677495549923" duration="3284000" />
       <workItem from="1677607082842" duration="719000" />
-      <workItem from="1677618511746" duration="584000" />
+      <workItem from="1677618511746" duration="917000" />
     </task>
     <task id="LOCAL-00001" summary="Base window">
       <created>1677422394648</created>
@@ -126,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677533937292</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added quicksort">
+      <created>1677619141870</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677619141870</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +156,7 @@
     <MESSAGE value="array of numbers setup" />
     <MESSAGE value="Window class is working" />
     <MESSAGE value="Bubble sort is working fine" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bubble sort is working fine" />
+    <MESSAGE value="Added quicksort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added quicksort" />
   </component>
 </project>
