@@ -1,7 +1,7 @@
 public class BubbleSortRunnable implements Runnable {
     private final int[] arr;
     private final Window window;
-    final int DELAY = 50;
+    final int DELAY = 1;
 
     public BubbleSortRunnable(int[] arr, Window window) {
         this.arr = arr;

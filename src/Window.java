@@ -7,7 +7,7 @@ public class Window extends JPanel {
     Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
     final double SCREEN_WIDTH = screenSize.getWidth();
     final double SCREEN_HEIGHT = screenSize.getHeight();
-    final int numOfNumbers = 100;
+    final int numOfNumbers = 1000;
     int[] arrOfNumbers = new int[numOfNumbers];
     final double tileWidth = SCREEN_WIDTH / numOfNumbers;
     double tileHeight = 0;
@@ -19,8 +19,8 @@ public class Window extends JPanel {
 
     void start_program() {
         create_array();
-        Thread bubbleSortThread = new Thread(new BubbleSortRunnable(arrOfNumbers, this));
-        bubbleSortThread.start();
+        Thread thread = new Thread(new QuickSortRunnable(arrOfNumbers, this));
+        thread.start();
     }
 
     void create_array() {

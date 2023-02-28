@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a68c370d-5047-453b-9d0c-d16b38a77052" name="Changes" comment="array of numbers setup">
-      <change afterPath="$PROJECT_DIR$/src/BubbleSortRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a68c370d-5047-453b-9d0c-d16b38a77052" name="Changes" comment="Bubble sort is working fine">
+      <change afterPath="$PROJECT_DIR$/src/QuickSortRunnable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BubbleSortRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BubbleSortRunnable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +88,8 @@
       <workItem from="1677419249256" duration="1658000" />
       <workItem from="1677422071751" duration="2849000" />
       <workItem from="1677495549923" duration="3284000" />
+      <workItem from="1677607082842" duration="719000" />
+      <workItem from="1677618511746" duration="584000" />
     </task>
     <task id="LOCAL-00001" summary="Base window">
       <created>1677422394648</created>
@@ -110,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677427138416</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Window class is working">
+      <created>1677533915080</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677533915080</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Bubble sort is working fine">
+      <created>1677533937292</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677533937292</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +148,8 @@
     <MESSAGE value="Base window" />
     <MESSAGE value="got screen width and height" />
     <MESSAGE value="array of numbers setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="array of numbers setup" />
+    <MESSAGE value="Window class is working" />
+    <MESSAGE value="Bubble sort is working fine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bubble sort is working fine" />
   </component>
 </project>
