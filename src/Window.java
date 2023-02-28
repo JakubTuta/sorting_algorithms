@@ -24,7 +24,8 @@ public class Window extends JPanel {
 //        Thread thread = new Thread(new InsertionSortRunnable(arrOfNumbers, this));
 //        Thread thread = new Thread(new SelectionSortRunnable(arrOfNumbers, this));
 //        Thread thread = new Thread(new BogoSortRunnable(arrOfNumbers, this));
-        Thread thread = new Thread(new ShakerSortRunnable(arrOfNumbers, this));
+//        Thread thread = new Thread(new ShakerSortRunnable(arrOfNumbers, this));
+        Thread thread = new Thread(new CombSortRunnable(arrOfNumbers, this));
         thread.start();
     }
 
