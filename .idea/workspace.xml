@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a68c370d-5047-453b-9d0c-d16b38a77052" name="Changes" comment="Added radix sort">
-      <change afterPath="$PROJECT_DIR$/src/MergeSortRunnable.java" afterDir="false" />
+    <list default="true" id="a68c370d-5047-453b-9d0c-d16b38a77052" name="Changes" comment="Added merge sort (doesn't work tho)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Window.java" afterDir="false" />
     </list>
@@ -88,7 +87,11 @@
       <workItem from="1677422071751" duration="2849000" />
       <workItem from="1677495549923" duration="3284000" />
       <workItem from="1677607082842" duration="719000" />
-      <workItem from="1677618511746" duration="2842000" />
+      <workItem from="1677618511746" duration="3569000" />
+      <workItem from="1677697576022" duration="467000" />
+      <workItem from="1677789006391" duration="3000" />
+      <workItem from="1677951887225" duration="236000" />
+      <workItem from="1677952176925" duration="1671000" />
     </task>
     <task id="LOCAL-00001" summary="Base window">
       <created>1677422394648</created>
@@ -174,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677620828154</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added merge sort (doesn't work tho)">
+      <created>1677621417943</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677621417943</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +215,7 @@
     <MESSAGE value="Added shaker sort" />
     <MESSAGE value="Added comb sort" />
     <MESSAGE value="Added radix sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added radix sort" />
+    <MESSAGE value="Added merge sort (doesn't work tho)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added merge sort (doesn't work tho)" />
   </component>
 </project>

@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.Arrays;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Window extends JPanel {
     Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
@@ -14,19 +15,38 @@ public class Window extends JPanel {
 
     Window() {
         this.setBackground(Color.gray);
-        start_program();
+
+        System.out.println("quit - exits program:");
+        System.out.println("bubble - Bubble Sort");
+        System.out.println("quick - Quick Sort:");
+        System.out.println("insert - Insertion Sort:");
+        System.out.println("select - Selection Sort:");
+        System.out.println("bogo - Bogo Sort:");
+        System.out.println("shaker - Shaker Sort:");
+        System.out.println("radix - Radix Sort:");
+        System.out.println("Choose sorting algorithm:");
+
+        Scanner scanner = new Scanner(System.in);
+        String choice = scanner.nextLine();
+
+        start_program(choice);
     }
 
-    void start_program() {
+    void start_program(String choice) {
         create_array();
-//        Thread thread = new Thread(new BubbleSortRunnable(arrOfNumbers, this));
-//        Thread thread = new Thread(new QuickSortRunnable(arrOfNumbers, this));
-//        Thread thread = new Thread(new InsertionSortRunnable(arrOfNumbers, this));
-//        Thread thread = new Thread(new SelectionSortRunnable(arrOfNumbers, this));
-//        Thread thread = new Thread(new BogoSortRunnable(arrOfNumbers, this));
-//        Thread thread = new Thread(new ShakerSortRunnable(arrOfNumbers, this));
-//        Thread thread = new Thread(new RadixSortRunnable(arrOfNumbers, this));
-        Thread thread = new Thread(new MergeSortRunnable(arrOfNumbers, this));
+
+        Thread thread = null;
+        switch (choice) {
+            case "bubble" -> thread = new Thread(new BubbleSortRunnable(arrOfNumbers, this));
+            case "quick" -> thread = new Thread(new QuickSortRunnable(arrOfNumbers, this));
+            case "insert" -> thread = new Thread(new InsertionSortRunnable(arrOfNumbers, this));
+            case "select" -> thread = new Thread(new SelectionSortRunnable(arrOfNumbers, this));
+            case "bogo" -> thread = new Thread(new BogoSortRunnable(arrOfNumbers, this));
+            case "shaker" -> thread = new Thread(new ShakerSortRunnable(arrOfNumbers, this));
+            case "radix" -> thread = new Thread(new RadixSortRunnable(arrOfNumbers, this));
+            default -> System.exit(0);
+        }
+//        Thread thread = new Thread(new MergeSortRunnable(arrOfNumbers, this));
         thread.start();
     }
 
